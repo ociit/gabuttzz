@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gallery {
+    padding-top: 4rem;
+}
+.cuy {
+    background-color: white; /* Menggunakan format RGB */
+    color: orangered;
+    text-align: center;
+    padding: 40px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.cuy h1 {
+    font-size: 45px;
+    padding-top: 20px;
+    font-family: poppins;
+    padding: 20px;
+}
+
+.gallery-container {
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 20px;
+    padding-top: 50px;
+    background-color: rgb(29, 29, 79);
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 40px;
+}
+.gallery-container .box {
+    margin-bottom: 20px;
+    break-inside: avoid;
+    transition: 500ms;
+    
+
+}
+.gallery-container .box img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+.gallery-container .box:hover{
+    scale: 1.05;
+    transition: 600ms;
+    cursor: pointer;
+}
+
+.gallery-container {
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 20px;
+}
+.gallery-container .box {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+.gallery-container .box img {
+    max-width: 100%;
+    border-radius: 15px;
+}
