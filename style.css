@@ -7,7 +7,7 @@
 
     body {
         /* background-color:rgb(229, 214, 239); */
-        background-color: rgb(29, 29, 79);
+        background-color: rgb(200, 148, 224);
         display: grid;
         place-items: center; 
         height: 100vh;
